@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-size: 80%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 242, 238);
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(56, 56, 56);
+    padding: 1rem .5rem;
+    border-radius: 10px;
+}
+
+form .display-container #display {
+    width: 85%;
+    height: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    padding: .5rem 1rem;
+    text-align: end;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 7px 10px 2px rgba(0, 0, 0, 0.4);
+    background-color: rgb(213, 227, 236) !important;
+    color: black;
+
+}
+
+form .btns {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5px; */
+}
+
+form .btns input {
+    padding: .5rem;
+    height: 4rem;
+    width: 5rem;
+    margin: .5rem 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    box-shadow: 0px 3px 8px -2px #747270;
+}
+
+#equal {
+    width: 11.5rem;
+}
+
+@media screen and (max-width : 600px) {
+    html {
+        font-size: 62.5%;
+        /* font-size: 80%; */
+    }
+
+}
